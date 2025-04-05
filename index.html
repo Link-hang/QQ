@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QQ群跳转工具</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="header">
+                <div class="qq-icon">QQ</div>
+                <h1>QQ群跳转工具</h1>
+            </div>
+            
+            <div class="input-section">
+                <input type="text" id="group-number" placeholder="请输入QQ群号码" maxlength="10">
+                <button id="jump-btn">
+                    <span class="btn-icon">→</span>
+                    <span class="btn-text">跳转到群聊</span>
+                </button>
+            </div>
+            
+            <div class="result-section" id="result">
+                <div class="status-icon">ℹ️</div>
+                <p>请在手机QQ中打开此页面使用跳转功能</p>
+            </div>
+            
+            <div class="notice">
+                <h3><span class="notice-icon">📌</span> 使用说明</h3>
+                <ol>
+                    <li>在输入框中输入要跳转的QQ群号码</li>
+                    <li>点击"跳转到群聊"按钮</li>
+                    <li>根据提示操作完成跳转</li>
+                </ol>
+                <div class="warning">
+                    <span class="warning-icon">⚠️</span>
+                    <span>注意：此工具仅限合法用途，禁止用于骚扰他人</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
